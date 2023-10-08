@@ -1,0 +1,70 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+}
+.container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 70vh;
+}
+.msg {
+  color: rgb(138, 55, 214);
+  font-size: 2rem;
+}
+.msgCtn {
+  margin: 1rem 0;
+  color: azure;
+  padding: 1rem 1rem;
+  background-color: rgb(138, 55, 214);
+  border-radius: 6px;
+  font-size: 2rem;
+}
+.msgForm {
+  display: flex;
+  flex-direction: row;
+}
+.input {
+  height: 100%;
+  flex: 4;
+  margin-right: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 2px 1rem;
+  font-size: 1.5rem;
+  background-color: rgb(216, 233, 248);
+}
+.input:focus {
+  background-color: white;
+  border: 1px solid rgb(138, 55, 214);
+  outline: none;
+}
+.btn {
+  height: 5rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: rgb(158, 65, 244);
+  color: whitesmoke;
+  border: none;
+  font-size: 1.6rem;
+}
+#error {
+  color: rgb(247, 118, 118);
+  margin: 0.5rem 0;
+  display: none; /* Esta linha é para inicialmente esconder a mensagem */
+  font-size: 1.4rem;
+}
+
+.btn:active {
+  background-color: rgb(138, 55, 214);
+}
