@@ -5,7 +5,7 @@ import ws, { WebSocketServer } from "ws";
 function handleStaticRequest(req, res) {
   return staticHandler(req, res, {
     directoryListing: false,
-    public: "../public",
+    public: "../app",
   });
 }
 
